@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>clase05</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <fieldset>
+      <header id="encabezado">Mi primer Página</header>
+      <hr />
+
+      <div class="tarjeta">
+        <h1>Freider Andres Murillo Palacios</h1>
+        <p id="descriccion">
+          Mi nombre es Freider Andres Murillo Palacios, tengo 17 años de edad,
+          vivo con mi tio y un primo, en estos momentos me dedico a estudiar y
+          colaborar en un negocio familiar.</p>
+        <label for="numero">Adivina mi número favorito:</label>
+        <input
+          type="number" id="numero" placeholder="ingresa un valor numerico" min="1" max="100"/>
+        <p id="salida"></p>
+      </div>
+
+      <br />
+
+      <div class="tarjeta">
+        <label for="opcion">Mis Pasiones:</label>
+        <select id="opcion">
+          <option value="">Elige una opcion</option>
+          <option value="futbol">Futbol</option>
+          <option value="caminar">Caminar</option>
+          <option value="musica">Musica</option>
+        </select>
+         <p id="salida2"></p>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqErJbUkx7eHhk9qTR2_sdRZY8wi95LxWm4BBP0XinkA&s=10"
+          alt="Foto principal"/>
+          <br>
+        <button id="boton">Mensaje</button>
+      </div>
+      <hr />
+    </fieldset>
+    <footer>Final de mi página</footer>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
